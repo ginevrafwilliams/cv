@@ -9,7 +9,7 @@
   margin-top: 50px;
 }
 
-h3 {
+.header h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: lighter;
@@ -35,6 +35,7 @@ h1 {
   margin-left: 15px;
   font-weight: bold;
   width: 400px;
+  letter-spacing: 0.5px;
 }
 
 .summary p {
@@ -54,6 +55,84 @@ h1 {
   display: flex;
 }
 
+.languages {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.languages h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 15px;
+  font-weight: bold;
+  color: #4f4a4a;
+  letter-spacing: 0.5px;
+}
+
+.languages p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-left: 15px;
+  color: rgb(150, 150, 150);
+  letter-spacing: 0.5px;
+}
+
+.container {
+  display: flex;
+}
+
+.competences {
+  padding-right: 240px;
+  border-right: 5px solid rgb(250, 250, 250);
+}
+
+.education {
+  padding-left: 43px;
+}
+
+.education h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #4f4a4a;
+  letter-spacing: 0.5px;
+}
+
+.education p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: rgb(150, 150, 150);
+  letter-spacing: 0.5px;
+}
+
+.wagon {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+.lse {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+.rhul {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+.ual {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+.chateau {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+.brown {
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
 .fa-home:before {
   margin-right: 10px;
   font-size: 15px;
@@ -68,18 +147,18 @@ h1 {
 
 .fa-phone-square:before {
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(200, 200, 200);
 }
 
 .fa-linkedin:before {
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(200, 200, 200);
 }
 
 .fa-github-square:before {
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(200, 200, 200);
 }
